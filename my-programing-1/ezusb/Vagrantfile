@@ -1,0 +1,27 @@
+# -*- coding: utf-8 -*-
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  Encoding.default_external = "utf-8"
+  if Vagrant.has_plugin?("vagrant-vbguest")
+    config.vbguest.auto_update = false
+    config.vbguest.no_remote = true
+  end
+  config.vm.box = "takesako/alpine-iot"
+  config.vm.box_version = "3.16.5"
+  config.vm.box_check_update = false
+  config.vm.boot_timeout = 300
+  config.vm.provider "virtualbox" do |vb|
+    vb.customize ["modifyvm", :id, "--cableconnected1", "on"]
+  end
+  config.ssh.insert_key = false
+  # config.ssh.guest_port = 2222
+  # config.vm.network "forwarded_port", guest: 80, host: 8888
+  config.vm.synced_folder ".", "/vagrant", type: "virtualbox", SharedFoldersEnableSymlinksCreate: false
+  config.vm.provision "shell", inline: <<-SHELL
+    apk add sdcc cycfx2prog hex2bix make gcc musl-dev
+    apk add perl usbutils perl-usb-libusb py3-hidapi
+    chmod u+s /usr/bin/cycfx2prog
+  SHELL
+end

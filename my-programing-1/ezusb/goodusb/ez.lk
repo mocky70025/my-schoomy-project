@@ -1,0 +1,22 @@
+-muwx
+-i ez.ihx
+-M
+-I 0x0100
+-X 0x0200
+-b HOME = 0x0000
+-b XSEG = 0xe000
+-b PSEG = 0xe000
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-k /opt/homebrew/bin/../share/sdcc/lib/small-stack-auto
+-k /opt/homebrew/Cellar/sdcc/4.5.0/share/sdcc/lib/small-stack-auto
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+main.rel
+isr.rel
+dscr.rel
+
+-e

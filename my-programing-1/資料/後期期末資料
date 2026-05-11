@@ -1,0 +1,30 @@
+後期の授業資料＆notionの問題文
+※前期の範囲は、関数のところだけ入れてるよ✨
+おすすめのファイル名：問題集＆授業資料.c
+
+/*　問題集
+#10-1 関数定義：https://www.notion.so/kmarugoto-college/21b09a68050b809fa90ac5b557e01613?source=copy_link
+#10-2 戻り値のない関数：https://www.notion.so/kmarugoto-college/21b09a68050b80098ae2c57d18667c9b?source=copy_link
+#16 文字コード：https://www.notion.so/kmarugoto-college/27a09a68050b80599d7ae7c7109e68bd?source=copy_link
+#17 数値-文字列変換：https://www.notion.so/kmarugoto-college/27f09a68050b8044bf09f4c4e7480907?source=copy_link
+#20 文字列操作関数①：https://www.notion.so/kmarugoto-college/2a609a68050b8015b65ed45c82dc2c07?source=copy_link
+#21 文字列操作関数②：https://www.notion.so/kmarugoto-college/2a809a68050b80319f7ed0103d6031e7?source=copy_link
+#23 変数のスコープ：https://www.notion.so/kmarugoto-college/2b709a68050b8012bbf4c8102cb33fd7?source=copy_link
+#24 do文、static修飾子：https://www.notion.so/kmarugoto-college/do-2be09a68050b80579e1ee5242489c320?source=copy_link
+#26 ポインタの概念、sizeof演算子：https://www.notion.so/kmarugoto-college/2c609a68050b800597c3cb12be6619a6?source=copy_link
+#27 ポインタを引数とする関数：https://www.notion.so/kmarugoto-college/2d009a68050b808dbf79df1a26a8bdce?source=copy_link
+#28 ポインタと配列：https://www.notion.so/kmarugoto-college/2e609a68050b80fc9bdbc1cc08172faf?source=copy_link
+*/
+
+/*　授業資料
+#10-1 関数定義：https://drive.google.com/file/d/1kjOiXcs1ovBZJA7bYa2FlZWNSzyJWwxf/view?usp=sharing
+#10-2 戻り値のない関数：https://drive.google.com/file/d/1HUEiTAz67eM_kdqDJAls_ZnN7LVa5Zd1/view?usp=sharing
+#16 文字コード：https://drive.google.com/file/d/15f8LHfe1hX3twsVCFAtPJGYAN4meCQ3C/view?usp=sharing
+#17 数値-文字列変換：https://drive.google.com/file/d/1U9hdM-WvzStmD0zqES8z5EmnKfxxFYdo/view?usp=sharing
+#20 文字列操作関数①：https://drive.google.com/file/d/1JSrQJnp43lLSupx6v3Ui6jissHan5HFP/view?usp=sharing
+#21 文字列操作関数②：https://drive.google.com/file/d/1DPMsoGgx_sHtf1FFncYMaURvEtArjiLh/view?usp=sharing
+#23 変数のスコープ：https://drive.google.com/file/d/11e3q6dkmDaKbTiJiHKJ67ZRJqafbQTCw/view?usp=sharing
+#24 do文、static修飾子：https://drive.google.com/file/d/15BlDMcXVkZxoHIMagFQnM1JjFsyRC57q/view?usp=sharing
+#26 ポインタの概念、sizeof演算子：https://drive.google.com/file/d/1-feO3nrrrq2N8KCNaJPRKtCTJcAEcWEn/view?usp=sharing
+#27 ポインタを引数とする関数：https://drive.google.com/file/d/1z29KQywZwKjoQkH_G07MWpPCqhk8RG_-/view?usp=sharing
+#28 ポインタと配列：https://drive.google.com/file/d/1KK6kmIRBj1_6RTMNw_TdIwTx_tyzeo8Q/view?usp=sharing
